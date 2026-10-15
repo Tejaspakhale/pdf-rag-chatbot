@@ -1,0 +1,22 @@
+# Secrets (never commit your API key)
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Vector database files (if you switch to persistent storage)
+chroma_db/
+.chroma/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE and OS files
+.idea/
+.DS_Store
+Thumbs.db
